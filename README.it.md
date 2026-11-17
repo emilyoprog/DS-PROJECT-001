@@ -12,12 +12,11 @@ Interfaccia homebrew offline per Nintendo DSi XL, sviluppata come primo passo ve
 - Linux Mint, devkitPro / devkitARM, libnds, Make.
 - PC di destinazione: Windows 11, Ethernet tramite extender Mercusys ME50G.
 ## Percorso di sviluppo
-1. Risolta la protezione da scrittura della microSD prima del trasferimento degli homebrew.
-2. `Hello World` ha verificato l'avvio dei file `.nds` compilati tramite R4.
-3. Un tester ha verificato pulsanti e touchscreen.
-4. Creata e testata un'interfaccia offline neobrutalist sui due schermi.
-5. I vincoli WPA2 della modalità DS hanno bloccato la prima ipotesi di rete.
-6. Esplorati PictoChat e la modalità monitor Linux; nessun collegamento PC–DS dimostrato.
+1. `Hello World` ha verificato l'avvio dei file `.nds` compilati tramite R4.
+2. Un tester ha verificato pulsanti e touchscreen.
+3. Creata e testata un'interfaccia offline neobrutalist sui due schermi.
+4. I vincoli WPA2 della modalità DS hanno bloccato la prima ipotesi di rete.
+5. Esplorati PictoChat e la modalità monitor Linux; nessun collegamento PC–DS dimostrato.
 Ogni cambio di approccio è nato da un vincolo o test concreto, non da una sostituzione di architettura pianificata a priori.
 ## Documentazione
 - [Storia](docs/STORY.it.md) · [Decisioni](docs/DECISIONS.it.md) · [Changelog](CHANGELOG.md)
